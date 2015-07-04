@@ -30,12 +30,30 @@
     <ClInclude Include="MaJiangServer.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Define_Struct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SuanFan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Identification.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="MaJiangServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Identification.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
