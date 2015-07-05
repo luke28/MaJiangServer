@@ -33,7 +33,8 @@ int _tmain(int argc, TCHAR* argv[], TCHAR* envp[])
 			puts("接收图片失败！");
 			return -1;
 		}
-		
+		network.close();
+
 		//测试用
 		vector<int> in;
 		for (int i = 0; i < 9; i++){
@@ -59,13 +60,13 @@ int _tmain(int argc, TCHAR* argv[], TCHAR* envp[])
 		for (int i = 0; i < network.data.num; i++){
 			network.data.fanXing[i] = val.second[i];
 		}
-		getchar();
+		//getchar();
 		//发送数据
 		if (network.Send() == 0){
 			puts("发送番数信息出错！");
 		}
 		getchar();
-		network.close();
+		
 	}
 	
 	
